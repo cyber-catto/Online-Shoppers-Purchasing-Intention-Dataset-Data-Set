@@ -1,10 +1,10 @@
 ###### Online-Shoppers-Purchasing-Intention-Dataset-Data-Set
 This is the ADM Assignment 2 submission of ID: (8, 19, 27). 
-###Main:
+<br/>###Main:
 Contains the python implementation of Discretization, GA and Decision Tree. 
-###Decision_TreeWeka:
+<br/>###Decision_TreeWeka:
 Contains the Decision Tree Classifier implementation in Weka
-###FIS_Matlab: 
+<br/>###FIS_Matlab: 
 Fuzzy Inference System implementation in MatLab. 
 
 ###Dataset Description
