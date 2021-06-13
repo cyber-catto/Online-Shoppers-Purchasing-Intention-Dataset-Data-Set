@@ -1,0 +1,91 @@
+|--- BounceRates_Val <= 3.50
+|   |--- ExitRates_Val <= 2.50
+|   |   |--- ExitRates_Val <= 0.50
+|   |   |   |--- TrafficType <= 19.50
+|   |   |   |   |--- Month_Val <= 6.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Month_Val >  6.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- TrafficType >  19.50
+|   |   |   |   |--- OperatingSystems <= 2.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- OperatingSystems >  2.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- ExitRates_Val >  0.50
+|   |   |   |--- Month_Val <= 6.50
+|   |   |   |   |--- ExitRates_Val <= 1.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- ExitRates_Val >  1.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Month_Val >  6.50
+|   |   |   |   |--- OperatingSystems <= 1.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- OperatingSystems >  1.50
+|   |   |   |   |   |--- class: 0
+|   |--- ExitRates_Val >  2.50
+|   |   |--- Month_Val <= 6.50
+|   |   |   |--- ExitRates_Val <= 3.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- ExitRates_Val >  3.50
+|   |   |   |   |--- Browser <= 1.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Browser >  1.50
+|   |   |   |   |   |--- class: 0
+|   |   |--- Month_Val >  6.50
+|   |   |   |--- Browser <= 11.00
+|   |   |   |   |--- Region <= 3.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Region >  3.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Browser >  11.00
+|   |   |   |   |--- Region <= 5.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Region >  5.00
+|   |   |   |   |   |--- class: 0
+|--- BounceRates_Val >  3.50
+|   |--- Month_Val <= 6.50
+|   |   |--- PageValues_Val <= 2.50
+|   |   |   |--- Browser <= 1.50
+|   |   |   |   |--- TrafficType <= 3.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- TrafficType >  3.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Browser >  1.50
+|   |   |   |   |--- TrafficType <= 12.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- TrafficType >  12.00
+|   |   |   |   |   |--- class: 1
+|   |   |--- PageValues_Val >  2.50
+|   |   |   |--- ExitRates_Val <= 3.50
+|   |   |   |   |--- ExitRates_Val <= 0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- ExitRates_Val >  0.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- ExitRates_Val >  3.50
+|   |   |   |   |--- Browser <= 2.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Browser >  2.50
+|   |   |   |   |   |--- class: 0
+|   |--- Month_Val >  6.50
+|   |   |--- ExitRates_Val <= 3.50
+|   |   |   |--- Administrative_Val <= 3.00
+|   |   |   |   |--- ProductRelated_Val <= 2.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- ProductRelated_Val >  2.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Administrative_Val >  3.00
+|   |   |   |   |--- PageValues_Val <= 2.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- PageValues_Val >  2.00
+|   |   |   |   |   |--- class: 0
+|   |   |--- ExitRates_Val >  3.50
+|   |   |   |--- Month_Val <= 7.50
+|   |   |   |   |--- PageValues_Val <= 2.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- PageValues_Val >  2.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Month_Val >  7.50
+|   |   |   |   |--- Browser <= 5.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Browser >  5.50
+|   |   |   |   |   |--- class: 0
