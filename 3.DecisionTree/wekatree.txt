@@ -1,0 +1,325 @@
+PageValues <= 0.038035: FALSE (9601.0/370.0)
+PageValues > 0.038035
+|   VisitorType = Returning_Visitor
+|   |   PageValues <= 28.328866
+|   |   |   ProductRelated <= 22
+|   |   |   |   ExitRates <= 0.013479: TRUE (57.0/7.0)
+|   |   |   |   ExitRates > 0.013479
+|   |   |   |   |   Month = Feb: TRUE (1.0)
+|   |   |   |   |   Month = Mar
+|   |   |   |   |   |   ProductRelated_Duration <= 300: FALSE (3.0)
+|   |   |   |   |   |   ProductRelated_Duration > 300
+|   |   |   |   |   |   |   PageValues <= 10.844407
+|   |   |   |   |   |   |   |   ProductRelated <= 18: FALSE (4.0/1.0)
+|   |   |   |   |   |   |   |   ProductRelated > 18: TRUE (4.0/1.0)
+|   |   |   |   |   |   |   PageValues > 10.844407: TRUE (14.0/1.0)
+|   |   |   |   |   Month = May
+|   |   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   |   ProductRelated <= 15
+|   |   |   |   |   |   |   |   Region <= 4
+|   |   |   |   |   |   |   |   |   ExitRates <= 0.045526: TRUE (11.0)
+|   |   |   |   |   |   |   |   |   ExitRates > 0.045526
+|   |   |   |   |   |   |   |   |   |   PageValues <= 13.091959: FALSE (3.0)
+|   |   |   |   |   |   |   |   |   |   PageValues > 13.091959: TRUE (2.0)
+|   |   |   |   |   |   |   |   Region > 4: FALSE (2.0)
+|   |   |   |   |   |   |   ProductRelated > 15
+|   |   |   |   |   |   |   |   BounceRates <= 0.035088
+|   |   |   |   |   |   |   |   |   BounceRates <= 0.015686
+|   |   |   |   |   |   |   |   |   |   Informational_Duration <= 170.583333
+|   |   |   |   |   |   |   |   |   |   |   Informational <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   ExitRates <= 0.018376: FALSE (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ExitRates > 0.018376
+|   |   |   |   |   |   |   |   |   |   |   |   |   PageValues <= 19.785333: TRUE (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PageValues > 19.785333: FALSE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Informational > 2: FALSE (2.0)
+|   |   |   |   |   |   |   |   |   |   Informational_Duration > 170.583333: TRUE (2.0)
+|   |   |   |   |   |   |   |   |   BounceRates > 0.015686: FALSE (6.0)
+|   |   |   |   |   |   |   |   BounceRates > 0.035088: TRUE (3.0)
+|   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   TrafficType <= 4: TRUE (15.0/2.0)
+|   |   |   |   |   |   |   TrafficType > 4: FALSE (2.0)
+|   |   |   |   |   Month = Oct
+|   |   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   |   ProductRelated <= 4: TRUE (2.0)
+|   |   |   |   |   |   |   ProductRelated > 4
+|   |   |   |   |   |   |   |   Region <= 1: TRUE (2.0)
+|   |   |   |   |   |   |   |   Region > 1: FALSE (7.0)
+|   |   |   |   |   |   Weekend = TRUE: TRUE (6.0/1.0)
+|   |   |   |   |   Month = June: TRUE (4.0/1.0)
+|   |   |   |   |   Month = Jul
+|   |   |   |   |   |   Informational <= 0
+|   |   |   |   |   |   |   ProductRelated_Duration <= 129: FALSE (2.0)
+|   |   |   |   |   |   |   ProductRelated_Duration > 129: TRUE (8.0/2.0)
+|   |   |   |   |   |   Informational > 0: FALSE (4.0)
+|   |   |   |   |   Month = Aug
+|   |   |   |   |   |   Region <= 1: FALSE (4.0/1.0)
+|   |   |   |   |   |   Region > 1: TRUE (8.0/1.0)
+|   |   |   |   |   Month = Nov
+|   |   |   |   |   |   TrafficType <= 10
+|   |   |   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   |   |   Region <= 3
+|   |   |   |   |   |   |   |   |   BounceRates <= 0.021289: FALSE (14.0/1.0)
+|   |   |   |   |   |   |   |   |   BounceRates > 0.021289
+|   |   |   |   |   |   |   |   |   |   TrafficType <= 3: TRUE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   TrafficType > 3: FALSE (3.0/1.0)
+|   |   |   |   |   |   |   |   Region > 3
+|   |   |   |   |   |   |   |   |   ExitRates <= 0.032194: TRUE (4.0)
+|   |   |   |   |   |   |   |   |   ExitRates > 0.032194: FALSE (4.0/1.0)
+|   |   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   |   TrafficType <= 3
+|   |   |   |   |   |   |   |   |   Region <= 1: TRUE (4.0)
+|   |   |   |   |   |   |   |   |   Region > 1: FALSE (3.0/1.0)
+|   |   |   |   |   |   |   |   TrafficType > 3: FALSE (3.0)
+|   |   |   |   |   |   TrafficType > 10: TRUE (10.0/1.0)
+|   |   |   |   |   Month = Sep
+|   |   |   |   |   |   TrafficType <= 3
+|   |   |   |   |   |   |   Weekend = FALSE: TRUE (9.0/2.0)
+|   |   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   |   ProductRelated_Duration <= 446: FALSE (3.0)
+|   |   |   |   |   |   |   |   ProductRelated_Duration > 446: TRUE (3.0/1.0)
+|   |   |   |   |   |   TrafficType > 3: FALSE (5.0)
+|   |   |   |   |   Month = Dec
+|   |   |   |   |   |   ProductRelated_Duration <= 885.75
+|   |   |   |   |   |   |   ProductRelated_Duration <= 511.2: TRUE (5.0/1.0)
+|   |   |   |   |   |   |   ProductRelated_Duration > 511.2: FALSE (9.0)
+|   |   |   |   |   |   ProductRelated_Duration > 885.75: TRUE (9.0/1.0)
+|   |   |   ProductRelated > 22
+|   |   |   |   Month = Feb: TRUE (3.0/1.0)
+|   |   |   |   Month = Mar
+|   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   ProductRelated_Duration <= 724: TRUE (7.0)
+|   |   |   |   |   |   ProductRelated_Duration > 724: FALSE (100.0/45.0)
+|   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   TrafficType <= 12: TRUE (33.0/10.0)
+|   |   |   |   |   |   TrafficType > 12: FALSE (2.0)
+|   |   |   |   Month = May
+|   |   |   |   |   ProductRelated <= 35
+|   |   |   |   |   |   Informational <= 3
+|   |   |   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   |   |   Informational_Duration <= 193.5
+|   |   |   |   |   |   |   |   |   Informational <= 1
+|   |   |   |   |   |   |   |   |   |   Informational <= 0: FALSE (47.0/22.0)
+|   |   |   |   |   |   |   |   |   |   Informational > 0
+|   |   |   |   |   |   |   |   |   |   |   Informational_Duration <= 63.5: TRUE (7.0)
+|   |   |   |   |   |   |   |   |   |   |   Informational_Duration > 63.5: FALSE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Informational > 1
+|   |   |   |   |   |   |   |   |   |   PageValues <= 14.699601: FALSE (6.0)
+|   |   |   |   |   |   |   |   |   |   PageValues > 14.699601: TRUE (2.0)
+|   |   |   |   |   |   |   |   Informational_Duration > 193.5: TRUE (7.0)
+|   |   |   |   |   |   |   Weekend = TRUE: FALSE (34.0/16.0)
+|   |   |   |   |   |   Informational > 3: FALSE (7.0/1.0)
+|   |   |   |   |   ProductRelated > 35
+|   |   |   |   |   |   PageValues <= 3.348408: FALSE (68.0/2.0)
+|   |   |   |   |   |   PageValues > 3.348408
+|   |   |   |   |   |   |   Region <= 4
+|   |   |   |   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   |   |   |   ProductRelated <= 99
+|   |   |   |   |   |   |   |   |   |   ProductRelated <= 46: FALSE (43.0/4.0)
+|   |   |   |   |   |   |   |   |   |   ProductRelated > 46
+|   |   |   |   |   |   |   |   |   |   |   TrafficType <= 3: FALSE (41.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   TrafficType > 3
+|   |   |   |   |   |   |   |   |   |   |   |   Region <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Region <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Informational_Duration <= 50.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BounceRates <= 0.003922: FALSE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BounceRates > 0.003922: TRUE (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Informational_Duration > 50.5: FALSE (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Region > 1: TRUE (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Region > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   Region <= 3: FALSE (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Region > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PageValues <= 8.671344
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProductRelated <= 51: TRUE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   ProductRelated > 51: FALSE (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PageValues > 8.671344: TRUE (4.0)
+|   |   |   |   |   |   |   |   |   ProductRelated > 99: FALSE (18.0)
+|   |   |   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   |   |   PageValues <= 14.554286
+|   |   |   |   |   |   |   |   |   |   ProductRelated <= 45
+|   |   |   |   |   |   |   |   |   |   |   ProductRelated_Duration <= 1817: FALSE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   ProductRelated_Duration > 1817: TRUE (2.0)
+|   |   |   |   |   |   |   |   |   |   ProductRelated > 45: FALSE (32.0)
+|   |   |   |   |   |   |   |   |   PageValues > 14.554286: TRUE (3.0)
+|   |   |   |   |   |   |   Region > 4
+|   |   |   |   |   |   |   |   Weekend = FALSE: FALSE (36.0/16.0)
+|   |   |   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   |   |   ProductRelated <= 83
+|   |   |   |   |   |   |   |   |   |   BounceRates <= 0.003252: FALSE (6.0)
+|   |   |   |   |   |   |   |   |   |   BounceRates > 0.003252
+|   |   |   |   |   |   |   |   |   |   |   Region <= 6: TRUE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Region > 6: FALSE (2.0)
+|   |   |   |   |   |   |   |   |   ProductRelated > 83: TRUE (4.0)
+|   |   |   |   Month = Oct
+|   |   |   |   |   ProductRelated_Duration <= 1176.5
+|   |   |   |   |   |   Informational_Duration <= 189.5
+|   |   |   |   |   |   |   Informational_Duration <= 35.7
+|   |   |   |   |   |   |   |   ExitRates <= 0.02807
+|   |   |   |   |   |   |   |   |   ProductRelated_Duration <= 599.613333: TRUE (3.0)
+|   |   |   |   |   |   |   |   |   ProductRelated_Duration > 599.613333: FALSE (11.0/3.0)
+|   |   |   |   |   |   |   |   ExitRates > 0.02807: TRUE (6.0)
+|   |   |   |   |   |   |   Informational_Duration > 35.7: FALSE (2.0)
+|   |   |   |   |   |   Informational_Duration > 189.5: TRUE (4.0)
+|   |   |   |   |   ProductRelated_Duration > 1176.5: FALSE (54.0/14.0)
+|   |   |   |   Month = June
+|   |   |   |   |   Informational_Duration <= 196
+|   |   |   |   |   |   ProductRelated <= 54
+|   |   |   |   |   |   |   ExitRates <= 0.036759
+|   |   |   |   |   |   |   |   TrafficType <= 2
+|   |   |   |   |   |   |   |   |   ExitRates <= 0.028382: TRUE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   ExitRates > 0.028382: FALSE (2.0)
+|   |   |   |   |   |   |   |   TrafficType > 2: TRUE (2.0)
+|   |   |   |   |   |   |   ExitRates > 0.036759: FALSE (3.0)
+|   |   |   |   |   |   ProductRelated > 54: FALSE (20.0)
+|   |   |   |   |   Informational_Duration > 196: TRUE (2.0)
+|   |   |   |   Month = Jul
+|   |   |   |   |   Weekend = FALSE: FALSE (48.0/14.0)
+|   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   Informational <= 0: FALSE (6.0/1.0)
+|   |   |   |   |   |   Informational > 0: TRUE (5.0/1.0)
+|   |   |   |   Month = Aug
+|   |   |   |   |   BounceRates <= 0.007377
+|   |   |   |   |   |   Informational <= 3
+|   |   |   |   |   |   |   ProductRelated_Duration <= 1692.257143
+|   |   |   |   |   |   |   |   Region <= 4
+|   |   |   |   |   |   |   |   |   ProductRelated_Duration <= 706.983766: FALSE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   ProductRelated_Duration > 706.983766: TRUE (11.0/1.0)
+|   |   |   |   |   |   |   |   Region > 4: FALSE (3.0)
+|   |   |   |   |   |   |   ProductRelated_Duration > 1692.257143
+|   |   |   |   |   |   |   |   ProductRelated_Duration <= 4249.12: FALSE (15.0)
+|   |   |   |   |   |   |   |   ProductRelated_Duration > 4249.12
+|   |   |   |   |   |   |   |   |   ExitRates <= 0.01039: TRUE (5.0)
+|   |   |   |   |   |   |   |   |   ExitRates > 0.01039: FALSE (4.0/1.0)
+|   |   |   |   |   |   Informational > 3: TRUE (3.0/1.0)
+|   |   |   |   |   BounceRates > 0.007377: FALSE (19.0/2.0)
+|   |   |   |   Month = Nov
+|   |   |   |   |   Region <= 4
+|   |   |   |   |   |   ExitRates <= 0.023798
+|   |   |   |   |   |   |   ProductRelated <= 61
+|   |   |   |   |   |   |   |   Informational <= 0: TRUE (55.0/18.0)
+|   |   |   |   |   |   |   |   Informational > 0
+|   |   |   |   |   |   |   |   |   Informational_Duration <= 287.5: FALSE (19.0/4.0)
+|   |   |   |   |   |   |   |   |   Informational_Duration > 287.5: TRUE (6.0/1.0)
+|   |   |   |   |   |   |   ProductRelated > 61: TRUE (183.0/51.0)
+|   |   |   |   |   |   ExitRates > 0.023798
+|   |   |   |   |   |   |   TrafficType <= 12
+|   |   |   |   |   |   |   |   TrafficType <= 2
+|   |   |   |   |   |   |   |   |   Informational <= 4
+|   |   |   |   |   |   |   |   |   |   TrafficType <= 1
+|   |   |   |   |   |   |   |   |   |   |   Region <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   ProductRelated_Duration <= 5325.234886: FALSE (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ProductRelated_Duration > 5325.234886: TRUE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Region > 1
+|   |   |   |   |   |   |   |   |   |   |   |   Region <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   Informational <= 0: TRUE (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Informational > 0: FALSE (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Region > 3: FALSE (2.0)
+|   |   |   |   |   |   |   |   |   |   TrafficType > 1: FALSE (38.0/15.0)
+|   |   |   |   |   |   |   |   |   Informational > 4: TRUE (3.0)
+|   |   |   |   |   |   |   |   TrafficType > 2: TRUE (25.0/9.0)
+|   |   |   |   |   |   |   TrafficType > 12: FALSE (5.0)
+|   |   |   |   |   Region > 4
+|   |   |   |   |   |   TrafficType <= 12
+|   |   |   |   |   |   |   BounceRates <= 0.013793
+|   |   |   |   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   |   |   |   Region <= 8
+|   |   |   |   |   |   |   |   |   |   Region <= 6
+|   |   |   |   |   |   |   |   |   |   |   ProductRelated_Duration <= 851.666667: TRUE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   ProductRelated_Duration > 851.666667
+|   |   |   |   |   |   |   |   |   |   |   |   TrafficType <= 7: FALSE (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   TrafficType > 7: TRUE (2.0)
+|   |   |   |   |   |   |   |   |   |   Region > 6
+|   |   |   |   |   |   |   |   |   |   |   Informational_Duration <= 112.6
+|   |   |   |   |   |   |   |   |   |   |   |   ProductRelated <= 102: TRUE (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ProductRelated > 102: FALSE (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Informational_Duration > 112.6: TRUE (6.0)
+|   |   |   |   |   |   |   |   |   Region > 8
+|   |   |   |   |   |   |   |   |   |   TrafficType <= 1: TRUE (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   TrafficType > 1: FALSE (9.0)
+|   |   |   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   |   |   Region <= 5: FALSE (2.0)
+|   |   |   |   |   |   |   |   |   Region > 5: TRUE (24.0/7.0)
+|   |   |   |   |   |   |   BounceRates > 0.013793: FALSE (7.0)
+|   |   |   |   |   |   TrafficType > 12: FALSE (6.0)
+|   |   |   |   Month = Sep
+|   |   |   |   |   ProductRelated_Duration <= 562.666667: TRUE (3.0)
+|   |   |   |   |   ProductRelated_Duration > 562.666667
+|   |   |   |   |   |   TrafficType <= 2: FALSE (32.0/4.0)
+|   |   |   |   |   |   TrafficType > 2
+|   |   |   |   |   |   |   Region <= 2: FALSE (7.0)
+|   |   |   |   |   |   |   Region > 2
+|   |   |   |   |   |   |   |   TrafficType <= 3: TRUE (2.0)
+|   |   |   |   |   |   |   |   TrafficType > 3
+|   |   |   |   |   |   |   |   |   BounceRates <= 0.005025: TRUE (5.0/1.0)
+|   |   |   |   |   |   |   |   |   BounceRates > 0.005025: FALSE (7.0)
+|   |   |   |   Month = Dec: FALSE (149.0/40.0)
+|   |   PageValues > 28.328866
+|   |   |   BounceRates <= 0.00042: TRUE (363.0/58.0)
+|   |   |   BounceRates > 0.00042
+|   |   |   |   Month = Feb: FALSE (2.0)
+|   |   |   |   Month = Mar
+|   |   |   |   |   ProductRelated_Duration <= 1400.5
+|   |   |   |   |   |   ProductRelated_Duration <= 495.27381: FALSE (2.0)
+|   |   |   |   |   |   ProductRelated_Duration > 495.27381: TRUE (12.0/1.0)
+|   |   |   |   |   ProductRelated_Duration > 1400.5: FALSE (4.0)
+|   |   |   |   Month = May
+|   |   |   |   |   ProductRelated_Duration <= 1464.416667: TRUE (31.0/11.0)
+|   |   |   |   |   ProductRelated_Duration > 1464.416667: FALSE (14.0/2.0)
+|   |   |   |   Month = Oct
+|   |   |   |   |   Region <= 1
+|   |   |   |   |   |   TrafficType <= 3: FALSE (3.0/1.0)
+|   |   |   |   |   |   TrafficType > 3
+|   |   |   |   |   |   |   ProductRelated <= 32: TRUE (4.0)
+|   |   |   |   |   |   |   ProductRelated > 32: FALSE (2.0)
+|   |   |   |   |   Region > 1: TRUE (4.0)
+|   |   |   |   Month = June: TRUE (5.0/1.0)
+|   |   |   |   Month = Jul: TRUE (4.0/1.0)
+|   |   |   |   Month = Aug
+|   |   |   |   |   ProductRelated <= 13: FALSE (2.0)
+|   |   |   |   |   ProductRelated > 13
+|   |   |   |   |   |   Region <= 2: TRUE (2.0)
+|   |   |   |   |   |   Region > 2
+|   |   |   |   |   |   |   Region <= 4: FALSE (2.0)
+|   |   |   |   |   |   |   Region > 4: TRUE (2.0)
+|   |   |   |   Month = Nov
+|   |   |   |   |   BounceRates <= 0.006349
+|   |   |   |   |   |   Weekend = FALSE: TRUE (37.0/5.0)
+|   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   Informational <= 5
+|   |   |   |   |   |   |   |   TrafficType <= 1: FALSE (2.0)
+|   |   |   |   |   |   |   |   TrafficType > 1: TRUE (11.0/1.0)
+|   |   |   |   |   |   |   Informational > 5: FALSE (4.0)
+|   |   |   |   |   BounceRates > 0.006349
+|   |   |   |   |   |   Weekend = FALSE
+|   |   |   |   |   |   |   Informational <= 2
+|   |   |   |   |   |   |   |   PageValues <= 61.304866: TRUE (22.0/8.0)
+|   |   |   |   |   |   |   |   PageValues > 61.304866: FALSE (6.0)
+|   |   |   |   |   |   |   Informational > 2: FALSE (5.0)
+|   |   |   |   |   |   Weekend = TRUE
+|   |   |   |   |   |   |   ExitRates <= 0.02803: TRUE (5.0)
+|   |   |   |   |   |   |   ExitRates > 0.02803: FALSE (2.0)
+|   |   |   |   Month = Sep
+|   |   |   |   |   PageValues <= 32.733735: TRUE (2.0)
+|   |   |   |   |   PageValues > 32.733735: FALSE (7.0)
+|   |   |   |   Month = Dec
+|   |   |   |   |   Region <= 7
+|   |   |   |   |   |   Region <= 4
+|   |   |   |   |   |   |   Region <= 3
+|   |   |   |   |   |   |   |   PageValues <= 32.437385: TRUE (3.0)
+|   |   |   |   |   |   |   |   PageValues > 32.437385: FALSE (29.0/5.0)
+|   |   |   |   |   |   |   Region > 3: TRUE (2.0)
+|   |   |   |   |   |   Region > 4: FALSE (7.0)
+|   |   |   |   |   Region > 7: TRUE (3.0)
+|   VisitorType = New_Visitor
+|   |   PageValues <= 9.001857
+|   |   |   Month = Feb: FALSE (0.0)
+|   |   |   Month = Mar: FALSE (3.0/1.0)
+|   |   |   Month = May: FALSE (7.0/1.0)
+|   |   |   Month = Oct: TRUE (1.0)
+|   |   |   Month = June: FALSE (0.0)
+|   |   |   Month = Jul: TRUE (1.0)
+|   |   |   Month = Aug: FALSE (1.0)
+|   |   |   Month = Nov: TRUE (3.0)
+|   |   |   Month = Sep: FALSE (2.0)
+|   |   |   Month = Dec: TRUE (2.0)
+|   |   PageValues > 9.001857: TRUE (361.0/41.0)
+|   VisitorType = Other: TRUE (16.0/2.0)
